@@ -317,6 +317,13 @@ nav img {
 
 }
 
+.footer-container {
+    background: #0B0223;
+    width: 1920px;
+    height: 636px;
+    
+}
+
 /* responsive for mobile here  */
 @media screen and (max-width: 576px) {
     nav {
@@ -402,7 +409,7 @@ nav img {
         border-radius: 50px;
 
     }
-    
+
     .btn-games-action p {
         font-family: Work Sans;
         font-size: 10px;
