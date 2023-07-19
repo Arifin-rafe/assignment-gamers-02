@@ -225,7 +225,7 @@ nav img {
     left: 50%;
     transform: translateX(-50%);
     font-size: 16px;
-    color: wheat;
+    color: white;
     opacity: 0;
     transition: opacity 0.3s;
   }
@@ -566,7 +566,7 @@ nav img {
 
 /* responsive for tab  */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
     .nav-bar {
         display: flex;
         flex-direction: column;
@@ -603,4 +603,4 @@ nav img {
     }
 
 
-} */
+}
