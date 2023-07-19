@@ -467,6 +467,7 @@ nav img {
 
     .play-goat img {
         margin: 20px 20px 0 20px;
+        max-width: 400px;
 
     }
 
@@ -540,17 +541,20 @@ nav img {
     .footer-services {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        text-align: center;
     }
 
     .footer-privacy {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        text-align: center;
         margin-top: 20px;
     }
 }
 
 /* responsive for tab  */
-@media screen and (max-width: 768px) {
+
+/* @media screen and (max-width: 768px) {
     .nav-bar {
         display: flex;
         flex-direction: column;
@@ -562,13 +566,11 @@ nav img {
     .play-goat {
         display: flex;
         flex-direction: column;
-        /* margin: 0 10px 0 10px; */
 
     }
     .funny-img {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        /* margin: auto; */
         align-items: center;
     }
     .play-instantly-main {
@@ -576,19 +578,17 @@ nav img {
         flex-direction: column-reverse;
         margin: 10px;
         align-items: center;
-        /* justify-content: center; */
+        
 
     }
     .btn-games {
-        /* margin-top: 100px; */
-        /* margin-left: 0; */
+        
         margin: 100px 10px 0 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        /* align-items: center; */
-        /* justify-content: center; */
+        
         
     }
 
 
-}
+} */
