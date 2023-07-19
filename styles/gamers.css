@@ -219,8 +219,20 @@ nav img {
     opacity: 0;
     transition: opacity 0.3s;
 }
-
+.watch-now {
+    position: absolute;
+    top: calc(50% + 40px); /* Adjust this value to position the text properly */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: wheat;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
 .funny-img-sub:hover .play-button {
+    opacity: 1;
+}
+.funny-img-sub:hover .watch-now {
     opacity: 1;
 }
 
