@@ -42,7 +42,16 @@ nav img {
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.amer-2 {
+    color: whitesmoke;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+
+
 }
 
 .nav-bar-1 {
@@ -319,9 +328,44 @@ nav img {
 
 .footer-container {
     background: #0B0223;
-    width: 1920px;
-    height: 636px;
-    
+    width: 100%;
+    height: 536px;
+    margin: 0;
+
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-title h2 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: palevioletred;
+}
+
+.footer-services{
+    color: #FFF;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    gap:20px;
+    display: flex;
+}
+.footer-logo{
+    gap: 20px;
+}
+
+.footer-title img {
+    width: 86.041px;
+    height: 40px;
 }
 
 /* responsive for mobile here  */
