@@ -351,8 +351,8 @@ nav img {
     border-radius: 50px;
     background: #FFF;
     color: #0B0223;
-
     gap: 10px;
+    /* padding: 10px; */
     margin: 20px 0px 20px 0px;
 }
 
@@ -583,7 +583,8 @@ nav img {
     .funny-img {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        align-items: center;
+        /* align-items: center; */
+        justify-content: center;
     }
     .play-instantly-main {
         display: flex;
