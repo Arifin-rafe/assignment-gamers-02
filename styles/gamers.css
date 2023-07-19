@@ -90,9 +90,11 @@ nav img {
 .play-goat {
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     text-align: center;
-    justify-content: space-between;
-    margin: 0 140px 0 140px;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* margin: 0 140px 0 140px; */
 }
 
 .play-goat img {
@@ -544,5 +546,10 @@ nav img {
 
 /* responsive for tab  */
 @media screen and (min-width: 768px){
-
+    /* .nav-bar{
+        display: flex;
+        flex-direction: column;
+    } */
+    
+    
 }
